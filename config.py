@@ -25,7 +25,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002182837210"))
 OWNER = os.environ.get("OWNER", "@RoronoaZo0ro")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7063650557"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5297888360"))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {mention}✨,\n\nIam a File Store Bot\nPowered By @AAnimeOngoing\nThank you</b>")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[5297888360]
     for x in (os.environ.get("ADMINS", "5297888360").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -53,7 +53,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋 Hello {mention}✨,/nᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ/n[ ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ 1 and ᴊᴏɪɴ 2⚡️]/nᴛʜᴇɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ғɪʟᴇ ʙʏ ᴛᴀᴘᴘɪɴɢ ᴏɴ Try Again 🔥")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @OtakuFlix_Network</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Your not the owner of this bot/nJoin our channel https://t.me/AAnimeOngoing"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5191566338)
+ADMINS.append(5297888360)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
