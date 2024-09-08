@@ -41,7 +41,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002030167688"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {mention}✨,\n\nIam a File Store Bot\nPowered By @AAnimeOngoing\nThank you</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {mention}✨,\n\nIam a File Store Bot\nPowered By @DK_MoviesPoint\nThank you</b>")
 try:
     ADMINS=[5297888360]
     for x in (os.environ.get("ADMINS", "5297888360").split()):
@@ -62,7 +62,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Your not the owner of this bot\nJoin our channel https://t.me/AAnimeOngoing"
+USER_REPLY_TEXT = "❌Your not the owner of this bot\nJoin our channel https://t.me/DK_MoviesPoint"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5297888360)
